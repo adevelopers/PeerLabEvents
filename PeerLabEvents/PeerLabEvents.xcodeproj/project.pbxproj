@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7188FCF91EEAEDF800EDEDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FCF81EEAEDF800EDEDA3 /* AppDelegate.swift */; };
-		7188FCFB1EEAEDF800EDEDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FCFA1EEAEDF800EDEDA3 /* ViewController.swift */; };
+		7188FCFB1EEAEDF800EDEDA3 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FCFA1EEAEDF800EDEDA3 /* EventListViewController.swift */; };
 		7188FCFE1EEAEDF800EDEDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7188FCFC1EEAEDF800EDEDA3 /* Main.storyboard */; };
 		7188FD011EEAEDF800EDEDA3 /* PeerLabEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7188FCFF1EEAEDF800EDEDA3 /* PeerLabEvents.xcdatamodeld */; };
 		7188FD031EEAEDF800EDEDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7188FD021EEAEDF800EDEDA3 /* Assets.xcassets */; };
@@ -25,6 +25,7 @@
 		7188FD331EEAFB6600EDEDA3 /* Event+Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD321EEAFB6600EDEDA3 /* Event+Managed.swift */; };
 		7188FD351EEAFC1B00EDEDA3 /* Member+Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD341EEAFC1B00EDEDA3 /* Member+Managed.swift */; };
 		7188FD381EEB146200EDEDA3 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD371EEB146200EDEDA3 /* AppSettings.swift */; };
+		7188FD3A1EEB20C300EDEDA3 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD391EEB20C300EDEDA3 /* ViewConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 /* Begin PBXFileReference section */
 		7188FCF51EEAEDF800EDEDA3 /* PeerLabEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerLabEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7188FCF81EEAEDF800EDEDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7188FCFA1EEAEDF800EDEDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7188FCFA1EEAEDF800EDEDA3 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		7188FCFD1EEAEDF800EDEDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7188FD001EEAEDF800EDEDA3 /* PeerLabEvents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeerLabEvents.xcdatamodel; sourceTree = "<group>"; };
 		7188FD021EEAEDF800EDEDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		7188FD321EEAFB6600EDEDA3 /* Event+Managed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+Managed.swift"; sourceTree = "<group>"; };
 		7188FD341EEAFC1B00EDEDA3 /* Member+Managed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Member+Managed.swift"; sourceTree = "<group>"; };
 		7188FD371EEB146200EDEDA3 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		7188FD391EEB20C300EDEDA3 /* ViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +106,6 @@
 				7188FD1B1EEAF02400EDEDA3 /* Common */,
 				7188FD1C1EEAF03D00EDEDA3 /* Modules */,
 				7188FCF81EEAEDF800EDEDA3 /* AppDelegate.swift */,
-				7188FCFA1EEAEDF800EDEDA3 /* ViewController.swift */,
 				7188FCFC1EEAEDF800EDEDA3 /* Main.storyboard */,
 				7188FD021EEAEDF800EDEDA3 /* Assets.xcassets */,
 				7188FD041EEAEDF800EDEDA3 /* LaunchScreen.storyboard */,
@@ -126,7 +127,8 @@
 		7188FD1B1EEAF02400EDEDA3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				7188FD361EEB144200EDEDA3 /* AppUserDefaults */,
+				7188FD391EEB20C300EDEDA3 /* ViewConfiguration.swift */,
+				7188FD361EEB144200EDEDA3 /* AppSettings */,
 				7188FD311EEAFA2600EDEDA3 /* Models */,
 				7188FD1F1EEAF69B00EDEDA3 /* CoreData */,
 			);
@@ -145,6 +147,7 @@
 		7188FD1D1EEAF04F00EDEDA3 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				7188FD3B1EEB328100EDEDA3 /* Views */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -188,12 +191,28 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		7188FD361EEB144200EDEDA3 /* AppUserDefaults */ = {
+		7188FD361EEB144200EDEDA3 /* AppSettings */ = {
 			isa = PBXGroup;
 			children = (
 				7188FD371EEB146200EDEDA3 /* AppSettings.swift */,
 			);
-			name = AppUserDefaults;
+			name = AppSettings;
+			sourceTree = "<group>";
+		};
+		7188FD3B1EEB328100EDEDA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7188FD3C1EEB329C00EDEDA3 /* Cells */,
+				7188FCFA1EEAEDF800EDEDA3 /* EventListViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7188FD3C1EEB329C00EDEDA3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +323,8 @@
 				7188FD331EEAFB6600EDEDA3 /* Event+Managed.swift in Sources */,
 				7188FD301EEAF8DF00EDEDA3 /* Event+CoreDataProperties.swift in Sources */,
 				7188FD381EEB146200EDEDA3 /* AppSettings.swift in Sources */,
-				7188FCFB1EEAEDF800EDEDA3 /* ViewController.swift in Sources */,
+				7188FD3A1EEB20C300EDEDA3 /* ViewConfiguration.swift in Sources */,
+				7188FCFB1EEAEDF800EDEDA3 /* EventListViewController.swift in Sources */,
 				7188FD2D1EEAF8DF00EDEDA3 /* Member+CoreDataClass.swift in Sources */,
 				7188FD2F1EEAF8DF00EDEDA3 /* Event+CoreDataClass.swift in Sources */,
 				7188FD351EEAFC1B00EDEDA3 /* Member+Managed.swift in Sources */,
@@ -524,6 +544,7 @@
 				7188FD171EEAEDF800EDEDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7188FD181EEAEDF800EDEDA3 /* Build configuration list for PBXNativeTarget "PeerLabEventsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +553,7 @@
 				7188FD1A1EEAEDF800EDEDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
