@@ -14,6 +14,17 @@
 		7188FD031EEAEDF800EDEDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7188FD021EEAEDF800EDEDA3 /* Assets.xcassets */; };
 		7188FD061EEAEDF800EDEDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7188FD041EEAEDF800EDEDA3 /* LaunchScreen.storyboard */; };
 		7188FD111EEAEDF800EDEDA3 /* PeerLabEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD101EEAEDF800EDEDA3 /* PeerLabEventsUITests.swift */; };
+		7188FD241EEAF69B00EDEDA3 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD201EEAF69B00EDEDA3 /* Context.swift */; };
+		7188FD251EEAF69B00EDEDA3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD211EEAF69B00EDEDA3 /* CoreDataManager.swift */; };
+		7188FD261EEAF69B00EDEDA3 /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD231EEAF69B00EDEDA3 /* MemberModel.swift */; };
+		7188FD281EEAF7CA00EDEDA3 /* Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD271EEAF7CA00EDEDA3 /* Managed.swift */; };
+		7188FD2D1EEAF8DF00EDEDA3 /* Member+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD291EEAF8DF00EDEDA3 /* Member+CoreDataClass.swift */; };
+		7188FD2E1EEAF8DF00EDEDA3 /* Member+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD2A1EEAF8DF00EDEDA3 /* Member+CoreDataProperties.swift */; };
+		7188FD2F1EEAF8DF00EDEDA3 /* Event+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD2B1EEAF8DF00EDEDA3 /* Event+CoreDataClass.swift */; };
+		7188FD301EEAF8DF00EDEDA3 /* Event+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD2C1EEAF8DF00EDEDA3 /* Event+CoreDataProperties.swift */; };
+		7188FD331EEAFB6600EDEDA3 /* Event+Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD321EEAFB6600EDEDA3 /* Event+Managed.swift */; };
+		7188FD351EEAFC1B00EDEDA3 /* Member+Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD341EEAFC1B00EDEDA3 /* Member+Managed.swift */; };
+		7188FD381EEB146200EDEDA3 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188FD371EEB146200EDEDA3 /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +49,17 @@
 		7188FD0C1EEAEDF800EDEDA3 /* PeerLabEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerLabEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7188FD101EEAEDF800EDEDA3 /* PeerLabEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerLabEventsUITests.swift; sourceTree = "<group>"; };
 		7188FD121EEAEDF800EDEDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7188FD201EEAF69B00EDEDA3 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		7188FD211EEAF69B00EDEDA3 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7188FD231EEAF69B00EDEDA3 /* MemberModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
+		7188FD271EEAF7CA00EDEDA3 /* Managed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Managed.swift; sourceTree = "<group>"; };
+		7188FD291EEAF8DF00EDEDA3 /* Member+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Member+CoreDataClass.swift"; path = "Models/Member+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7188FD2A1EEAF8DF00EDEDA3 /* Member+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Member+CoreDataProperties.swift"; path = "Models/Member+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7188FD2B1EEAF8DF00EDEDA3 /* Event+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Event+CoreDataClass.swift"; path = "Models/Event+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7188FD2C1EEAF8DF00EDEDA3 /* Event+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Event+CoreDataProperties.swift"; path = "Models/Event+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7188FD321EEAFB6600EDEDA3 /* Event+Managed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+Managed.swift"; sourceTree = "<group>"; };
+		7188FD341EEAFC1B00EDEDA3 /* Member+Managed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Member+Managed.swift"; sourceTree = "<group>"; };
+		7188FD371EEB146200EDEDA3 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,8 @@
 		7188FCF71EEAEDF800EDEDA3 /* PeerLabEvents */ = {
 			isa = PBXGroup;
 			children = (
+				7188FD1B1EEAF02400EDEDA3 /* Common */,
+				7188FD1C1EEAF03D00EDEDA3 /* Modules */,
 				7188FCF81EEAEDF800EDEDA3 /* AppDelegate.swift */,
 				7188FCFA1EEAEDF800EDEDA3 /* ViewController.swift */,
 				7188FCFC1EEAEDF800EDEDA3 /* Main.storyboard */,
@@ -97,6 +121,79 @@
 				7188FD121EEAEDF800EDEDA3 /* Info.plist */,
 			);
 			path = PeerLabEventsUITests;
+			sourceTree = "<group>";
+		};
+		7188FD1B1EEAF02400EDEDA3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7188FD361EEB144200EDEDA3 /* AppUserDefaults */,
+				7188FD311EEAFA2600EDEDA3 /* Models */,
+				7188FD1F1EEAF69B00EDEDA3 /* CoreData */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		7188FD1C1EEAF03D00EDEDA3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7188FD1E1EEAF06000EDEDA3 /* Members */,
+				7188FD1D1EEAF04F00EDEDA3 /* Events */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		7188FD1D1EEAF04F00EDEDA3 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		7188FD1E1EEAF06000EDEDA3 /* Members */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Members;
+			sourceTree = "<group>";
+		};
+		7188FD1F1EEAF69B00EDEDA3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7188FD271EEAF7CA00EDEDA3 /* Managed.swift */,
+				7188FD201EEAF69B00EDEDA3 /* Context.swift */,
+				7188FD211EEAF69B00EDEDA3 /* CoreDataManager.swift */,
+				7188FD221EEAF69B00EDEDA3 /* Models */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7188FD221EEAF69B00EDEDA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7188FD231EEAF69B00EDEDA3 /* MemberModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7188FD311EEAFA2600EDEDA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7188FD291EEAF8DF00EDEDA3 /* Member+CoreDataClass.swift */,
+				7188FD2A1EEAF8DF00EDEDA3 /* Member+CoreDataProperties.swift */,
+				7188FD2B1EEAF8DF00EDEDA3 /* Event+CoreDataClass.swift */,
+				7188FD2C1EEAF8DF00EDEDA3 /* Event+CoreDataProperties.swift */,
+				7188FD321EEAFB6600EDEDA3 /* Event+Managed.swift */,
+				7188FD341EEAFC1B00EDEDA3 /* Member+Managed.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7188FD361EEB144200EDEDA3 /* AppUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				7188FD371EEB146200EDEDA3 /* AppSettings.swift */,
+			);
+			name = AppUserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,8 +301,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7188FD331EEAFB6600EDEDA3 /* Event+Managed.swift in Sources */,
+				7188FD301EEAF8DF00EDEDA3 /* Event+CoreDataProperties.swift in Sources */,
+				7188FD381EEB146200EDEDA3 /* AppSettings.swift in Sources */,
 				7188FCFB1EEAEDF800EDEDA3 /* ViewController.swift in Sources */,
+				7188FD2D1EEAF8DF00EDEDA3 /* Member+CoreDataClass.swift in Sources */,
+				7188FD2F1EEAF8DF00EDEDA3 /* Event+CoreDataClass.swift in Sources */,
+				7188FD351EEAFC1B00EDEDA3 /* Member+Managed.swift in Sources */,
+				7188FD261EEAF69B00EDEDA3 /* MemberModel.swift in Sources */,
+				7188FD241EEAF69B00EDEDA3 /* Context.swift in Sources */,
 				7188FCF91EEAEDF800EDEDA3 /* AppDelegate.swift in Sources */,
+				7188FD281EEAF7CA00EDEDA3 /* Managed.swift in Sources */,
+				7188FD2E1EEAF8DF00EDEDA3 /* Member+CoreDataProperties.swift in Sources */,
+				7188FD251EEAF69B00EDEDA3 /* CoreDataManager.swift in Sources */,
 				7188FD011EEAEDF800EDEDA3 /* PeerLabEvents.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
